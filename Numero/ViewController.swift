@@ -50,6 +50,7 @@ class ViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    print("test line one")
     game = Game()
     originalIndicatorColor = converterLabel.textColor
   }
